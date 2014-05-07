@@ -2,10 +2,10 @@
 
 ## Milestones
 
-1. MVP
-2. Responsive
-3. favicon
-4. ads (ROI)
-5. marketing (Dan goes on TV)
+- [X] MVP
+- [ ] Responsive
+- [ ] Favicon
+- [ ] Ads (ROI)
+- [ ] Marketing (Dan goes on TV)
 
 
