@@ -6,6 +6,6 @@
 2. Responsive
 3. favicon
 4. ads (ROI)
-5. marketing (Gypsy?)
+5. marketing (Dan goes on TV)
 
 
