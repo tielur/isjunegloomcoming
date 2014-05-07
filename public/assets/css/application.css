@@ -1,0 +1,41 @@
+#yes, #no {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#yes {
+  background-image:url(../img/ned.png);
+  background-position: 150% 0px;
+}
+
+#no {
+  background-image:url(../img/walker.jpg);
+  background-position: center;
+}
+
+#yes .answer {
+  width: 60%;
+  color: black;
+}
+
+#no .answer {
+  color: white;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+
+.answer {
+  font-size: 120pt;
+  text-align:center;
+}
+
+.answer small {
+  font-size: 32pt;
+}
