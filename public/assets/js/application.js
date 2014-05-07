@@ -1,5 +1,5 @@
 var june_is_coming = function() {
-  return (new Date).getMonth() != 4
+  return (new Date).getMonth() != 5
 }
 
 jQuery(function(){
