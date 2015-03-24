@@ -22,6 +22,8 @@
 #yes .answer {
   width: 60%;
   color: black;
+  -webkit-text-stroke: 1px white;
+  font-size: 120pt;
 }
 
 #no .answer {
@@ -29,13 +31,67 @@
   position: absolute;
   top: 40%;
   width: 100%;
+  font-size: 100pt;
 }
 
 .answer {
-  font-size: 120pt;
   text-align:center;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .answer small {
   font-size: 32pt;
+}
+
+@media (max-width: 1220px) {
+  #yes .answer {
+    font-size: 110pt;
+  }
+}
+@media (max-width: 1120px) {
+  #yes .answer {
+    font-size: 100pt;
+  }
+}
+@media (max-width: 920px) {
+  #yes {
+    background-position: 40% 0px;
+  }
+  #yes .answer {
+    width: 100%;
+    padding-top: 20%;
+    font-size: 80pt;
+  }
+}
+@media (max-width: 860px) {
+  #no .answer {
+    font-size:80pt;
+  }
+}
+/* iPhone wide */
+@media (max-width: 660px) {
+  #yes {
+    background-position: 30% 10%;
+  }
+  #yes .answer {
+    padding-top: 15%;
+    font-size: 50pt;
+  }
+  #no {
+    background-position: 70% 25%;
+  }
+  #no .answer {
+    top: 20%;
+    font-size:50pt;
+  }
+}
+/* iPhone */
+@media (max-width: 320px) {
+  #no {
+    background-position: 70% 10%;
+  }
+  #yes .answer {
+    padding-top: 10%;
+    font-size: 50pt;
+  }
 }
